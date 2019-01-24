@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		02E82BB3FFD75DF7CFD831F8 /* Pods-XVIEWVideoManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWVideoManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWVideoManager_Example/Pods-XVIEWVideoManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		037C6751DC12B4E260E73080 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		037C6751DC12B4E260E73080 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		23EAE38DAD7859503E5C73CA /* Pods_XVIEWVideoManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XVIEWVideoManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C0AD8DD004027789CB0C7B6 /* Pods-XVIEWVideoManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWVideoManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWVideoManager_Example/Pods-XVIEWVideoManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XVIEWVideoManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XVIEWVideoManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,8 +64,8 @@
 		75D1A014096C5501ED06C5C7 /* Pods-XVIEWVideoManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWVideoManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWVideoManager_Tests/Pods-XVIEWVideoManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		75F7EC47DDFEBE9AB5CC1EC8 /* Pods-XVIEWVideoManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWVideoManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWVideoManager_Tests/Pods-XVIEWVideoManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8892BA30353EC7E858942C3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BC494D0580EC4AE37C9EFAF2 /* XVIEWVideoManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XVIEWVideoManager.podspec; path = ../XVIEWVideoManager.podspec; sourceTree = "<group>"; };
+		8892BA30353EC7E858942C3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BC494D0580EC4AE37C9EFAF2 /* XVIEWVideoManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XVIEWVideoManager.podspec; path = ../XVIEWVideoManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CBAABD60B5E9D0FAD769CD80 /* Pods_XVIEWVideoManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XVIEWVideoManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = maomao520benben;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 24N474AU9T;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -485,6 +488,7 @@
 			baseConfigurationReference = 02E82BB3FFD75DF7CFD831F8 /* Pods-XVIEWVideoManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24N474AU9T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XVIEWVideoManager/XVIEWVideoManager-Prefix.pch";
 				INFOPLIST_FILE = "XVIEWVideoManager/XVIEWVideoManager-Info.plist";
@@ -500,6 +504,7 @@
 			baseConfigurationReference = 2C0AD8DD004027789CB0C7B6 /* Pods-XVIEWVideoManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24N474AU9T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XVIEWVideoManager/XVIEWVideoManager-Prefix.pch";
 				INFOPLIST_FILE = "XVIEWVideoManager/XVIEWVideoManager-Info.plist";

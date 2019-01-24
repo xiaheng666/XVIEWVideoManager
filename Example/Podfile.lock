@@ -1,0 +1,16 @@
+PODS:
+  - XVIEWVideoManager (0.1.0)
+
+DEPENDENCIES:
+  - XVIEWVideoManager (from `../`)
+
+EXTERNAL SOURCES:
+  XVIEWVideoManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XVIEWVideoManager: 2795d4d486a11b25c8482074a82b12bf6c370489
+
+PODFILE CHECKSUM: 928adad529f3ba0b080a04ffef8a9f403f32b364
+
+COCOAPODS: 1.5.3

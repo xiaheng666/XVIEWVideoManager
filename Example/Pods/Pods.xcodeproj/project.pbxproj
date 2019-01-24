@@ -1,0 +1,1022 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01EDADEDE10778C1F4E86E26A8F6A94B /* ShootingToolBar.h in Headers */ = {isa = PBXBuildFile; fileRef = A97216E106B5C48B8A08ACCBCE2C6174 /* ShootingToolBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D85846BA3AE6B88E08EC2AA16B01690 /* WXPlayerContro.h in Headers */ = {isa = PBXBuildFile; fileRef = 36AA772CC92CDA86C3ECE384D933FC61 /* WXPlayerContro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14C296D8FEDD32162182DC5B578D0F4D /* UIColor+CZAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D523EC3418F98910F342BA1591CD997 /* UIColor+CZAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1578CCC0430ED7A76536E379FA590528 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE41CD6C22C8E37FE42CF6EAD53C30D /* UIView+SDAutoLayout.m */; };
+		1BE043E3D0671E95D15FD0796F5CF4AB /* SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AADB6B30864335715E75295BF776342F /* SDAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CF074614A4D6085A28226F902C7118B /* UIView+SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AD77B7C04F4592D5898C37C8D0775B17 /* UIView+SDAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E4503DA14B6614E11140E454CF1CB80 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 01885D66326849F1B515E611B0FC2616 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		2F1B170C15C1434832C07468EFB9BA21 /* XVIEWVideoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E8711D511625F057687BE907FAD8C9FA /* XVIEWVideoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38291784A23EA201734601F0635A974F /* XVIEWVideoManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1495EAB774D9A3BA13DBF7DA56345F35 /* XVIEWVideoManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DF71BEA829633E693F3DA74A5E8A11D /* WXShootingVContro.h in Headers */ = {isa = PBXBuildFile; fileRef = D57B84C06B21BB4FEB5D39797A2EB562 /* WXShootingVContro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B9C9B1C73931087C877DB9B82CEED0C /* switch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4332330F8C86C4DE74509E2B4ABC543C /* switch@3x.png */; };
+		59010C56814189C878CACA6DB08EC7B1 /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D36526B74F093333217EE5AD70D10248 /* UIColor+CZAddition.m */; };
+		5A64C4759298D1555C8B83AA5BBA2549 /* ShootingCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4A1A4FEA8569EA64BADEDFBC0FB6C /* ShootingCenterButton.m */; };
+		5D2338CE8AB8C1E866ACBFD2264B966E /* ShootingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 758B7B6A3DA3B9324DA334DE7B8C11DB /* ShootingButton.m */; };
+		75D38062B4CF55491A1E49CCAA9E9E3C /* switch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E28B0AB85EABBDC97DBB6CE4F99F62 /* switch@2x.png */; };
+		7982070FA1FC044D1EE02E77634A2738 /* Pods-XVIEWVideoManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C892DFC5A0DA16580D992C46317793 /* Pods-XVIEWVideoManager_Tests-dummy.m */; };
+		851E22336A6720DE273127703C9EBF25 /* XVIEWVideoManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D2EE631111D6D66E6A4750F4C32D1969 /* XVIEWVideoManager.bundle */; };
+		8709EC0E58A796DC850EEEFF9B7BAF4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		95EAFD90D932ABF59BAEA6EE1CD74ABB /* UITableView+SDAutoTableViewCellHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = E603BB6B15FF1E6266390E2A7B947C89 /* UITableView+SDAutoTableViewCellHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97073C52596A21708B1D2400D74834F1 /* ShootingCenterButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E3A7DC1682A0870EDDCA5B767C1BF6 /* ShootingCenterButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B6629400CE12FB1C613E1273371BF87 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAE76D9D2E5E9DFC5B0A5BDB87A16139 /* close@2x.png */; };
+		A0DC28DB4CF05BB6AE358AEE34811926 /* WXShootingVContro.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA4D0EDFF8DD69FF5F59AD9A9E9643A /* WXShootingVContro.m */; };
+		A26F26B460D2D1A3AE47B91AFB68876E /* XVIEWVideoManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA41D3E666230B8540572A7B6140402B /* XVIEWVideoManager-dummy.m */; };
+		A9FA382BEAA9DF07F9C313968DB5BF0C /* ShootingToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C0412CB6D649AC0FCEF3C95D13204B /* ShootingToolBar.m */; };
+		AA781E8290E0977C686D90C0839F9913 /* btn_return@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0299164DA4F496A2E60386FCEC6966 /* btn_return@3x.png */; };
+		B445E7F950AED7526CC14D58DE603F4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B6BE1FD0292DCF0BA647004A0C0F294E /* btn_sure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF2B8BF4C0D0179BC838F628EF880BA /* btn_sure@2x.png */; };
+		B7E3685577280001161BEADF67C6EE05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C86C1C16A9BC011424DD38EBC2C26AD9 /* btn_return@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88AA53D2617AEE5F4B7DB42479DF108A /* btn_return@2x.png */; };
+		D10084D6418D0043B69B2A5B6BED95D4 /* Pods-XVIEWVideoManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3599FA7299852FE4D3CA6A48ACEFAA62 /* Pods-XVIEWVideoManager_Example-dummy.m */; };
+		D31FB83C52D1B71C852D47CB2B51FB9A /* Pods-XVIEWVideoManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A12065254ED232EAB9EA7CD48DE87E /* Pods-XVIEWVideoManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3E35AAC5EC8912896D198D82F610FEC /* btn_sure@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE53B513117AF340160D4129942559B5 /* btn_sure@3x.png */; };
+		F1D18ECD49DF33F2651A9FAD35808378 /* WXPlayerContro.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B70D4E0B10069DC0D0786FC441FCA65 /* WXPlayerContro.m */; };
+		F4F81992F17FCDB317A2CEBC1F60322C /* Pods-XVIEWVideoManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 466E1D60B5BEAF23D959C34CDAC9E6C4 /* Pods-XVIEWVideoManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5AA010A53586B998CD447826C16AE74 /* ShootingButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB4D6E6E9244EF320585ACFFE617CC4 /* ShootingButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		007614C0C0426A4294C169A3792B486A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A8BC65EC8D8C5FC5DB5918C9533C41;
+			remoteInfo = XVIEWVideoManager;
+		};
+		7CAD52CCBDDB433FCA45CB1E383E387E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC78D606486D328857442D9DDC3ED372;
+			remoteInfo = "XVIEWVideoManager-XVIEWVideoManager";
+		};
+		F28E90FCB07A7AB5110E20E75226FA72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C389A5F55F05397DE158F8364D29EECB;
+			remoteInfo = "Pods-XVIEWVideoManager_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01885D66326849F1B515E611B0FC2616 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		046E42C61238E80683CCCD081547520F /* XVIEWVideoManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XVIEWVideoManager.modulemap; sourceTree = "<group>"; };
+		13C892DFC5A0DA16580D992C46317793 /* Pods-XVIEWVideoManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWVideoManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		1495EAB774D9A3BA13DBF7DA56345F35 /* XVIEWVideoManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XVIEWVideoManager-umbrella.h"; sourceTree = "<group>"; };
+		1B70D4E0B10069DC0D0786FC441FCA65 /* WXPlayerContro.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXPlayerContro.m; sourceTree = "<group>"; };
+		1D6098C5DCA6B89598AE2C63D38212DB /* Pods-XVIEWVideoManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XVIEWVideoManager_Example.modulemap"; sourceTree = "<group>"; };
+		24FD3FDCF161C174A92A1EFCE7C0EA25 /* XVIEWVideoManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XVIEWVideoManager.xcconfig; sourceTree = "<group>"; };
+		2D523EC3418F98910F342BA1591CD997 /* UIColor+CZAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZAddition.h"; sourceTree = "<group>"; };
+		33B800C9CBF79E4A4DFE8530C06720EE /* Pods-XVIEWVideoManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWVideoManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3599FA7299852FE4D3CA6A48ACEFAA62 /* Pods-XVIEWVideoManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWVideoManager_Example-dummy.m"; sourceTree = "<group>"; };
+		35D015111CD768F0459175974B2D2E86 /* Pods-XVIEWVideoManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XVIEWVideoManager_Tests.modulemap"; sourceTree = "<group>"; };
+		36AA772CC92CDA86C3ECE384D933FC61 /* WXPlayerContro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXPlayerContro.h; sourceTree = "<group>"; };
+		4332330F8C86C4DE74509E2B4ABC543C /* switch@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "switch@3x.png"; path = "XVIEWVideoManager/Assets/Resources/switch@3x.png"; sourceTree = "<group>"; };
+		466E1D60B5BEAF23D959C34CDAC9E6C4 /* Pods-XVIEWVideoManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XVIEWVideoManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		4AE41CD6C22C8E37FE42CF6EAD53C30D /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		507565716C44F22E35228E61C97973BB /* Pods-XVIEWVideoManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWVideoManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5CA4A1A4FEA8569EA64BADEDFBC0FB6C /* ShootingCenterButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShootingCenterButton.m; sourceTree = "<group>"; };
+		664E01237C7EF6D0AF6AD4F2AEA7A68D /* Pods-XVIEWVideoManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWVideoManager_Example-resources.sh"; sourceTree = "<group>"; };
+		69615AE24AE9B95E59EBC517F1244B0B /* Pods-XVIEWVideoManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWVideoManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		6BB4D6E6E9244EF320585ACFFE617CC4 /* ShootingButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShootingButton.h; sourceTree = "<group>"; };
+		700C07F19F1273C097C42A386CCF65DA /* Pods-XVIEWVideoManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XVIEWVideoManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		758B7B6A3DA3B9324DA334DE7B8C11DB /* ShootingButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShootingButton.m; sourceTree = "<group>"; };
+		7D94C57536C4E0868BBE99EE3DF60B61 /* Pods-XVIEWVideoManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWVideoManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7E86DE50CDEDD21414C32EFA522FDC99 /* Pods-XVIEWVideoManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XVIEWVideoManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		84DF4E2E1A2A2EC310E56D16BB847F52 /* XVIEWVideoManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XVIEWVideoManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		85E28B0AB85EABBDC97DBB6CE4F99F62 /* switch@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "switch@2x.png"; path = "XVIEWVideoManager/Assets/Resources/switch@2x.png"; sourceTree = "<group>"; };
+		88AA53D2617AEE5F4B7DB42479DF108A /* btn_return@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_return@2x.png"; path = "XVIEWVideoManager/Assets/Resources/btn_return@2x.png"; sourceTree = "<group>"; };
+		8EF2B8BF4C0D0179BC838F628EF880BA /* btn_sure@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_sure@2x.png"; path = "XVIEWVideoManager/Assets/Resources/btn_sure@2x.png"; sourceTree = "<group>"; };
+		90C0412CB6D649AC0FCEF3C95D13204B /* ShootingToolBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShootingToolBar.m; sourceTree = "<group>"; };
+		910AC9C7EE2C2C4687A3F1E0D839CBAB /* Pods_XVIEWVideoManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWVideoManager_Example.framework; path = "Pods-XVIEWVideoManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98EA55B4F76E75D758BE37FCD449F4ED /* ResourceBundle-XVIEWVideoManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XVIEWVideoManager-Info.plist"; sourceTree = "<group>"; };
+		9CAA9144D8248759637665CE6754D409 /* Pods-XVIEWVideoManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWVideoManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9CAC5D80BF7840B345987EC4A54E99CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D57A607120A5460D6E982E0F6A28402 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3ED6F0F906FE50255F78B6615D77CF3 /* Pods-XVIEWVideoManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWVideoManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A97216E106B5C48B8A08ACCBCE2C6174 /* ShootingToolBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShootingToolBar.h; sourceTree = "<group>"; };
+		AADB6B30864335715E75295BF776342F /* SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
+		AAED39DB77914C82CAAB84DB2893A4BA /* XVIEWVideoManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XVIEWVideoManager-prefix.pch"; sourceTree = "<group>"; };
+		AD77B7C04F4592D5898C37C8D0775B17 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		AE2F0B3BBB10788E3A92ED5A78A88F81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3D3478CA21DB6EF4F9F89627B97E42 /* libVideoManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libVideoManager.a; path = XVIEWVideoManager/Classes/XVIEWVideoManager/libVideoManager.a; sourceTree = "<group>"; };
+		BE53B513117AF340160D4129942559B5 /* btn_sure@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_sure@3x.png"; path = "XVIEWVideoManager/Assets/Resources/btn_sure@3x.png"; sourceTree = "<group>"; };
+		C1E3A7DC1682A0870EDDCA5B767C1BF6 /* ShootingCenterButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShootingCenterButton.h; sourceTree = "<group>"; };
+		CBA4D0EDFF8DD69FF5F59AD9A9E9643A /* WXShootingVContro.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXShootingVContro.m; sourceTree = "<group>"; };
+		CE3E7FA2FFBCFA9DEED1681B78A476B9 /* Pods_XVIEWVideoManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWVideoManager_Tests.framework; path = "Pods-XVIEWVideoManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EE631111D6D66E6A4750F4C32D1969 /* XVIEWVideoManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XVIEWVideoManager.bundle; path = "XVIEWVideoManager-XVIEWVideoManager.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36526B74F093333217EE5AD70D10248 /* UIColor+CZAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
+		D57B84C06B21BB4FEB5D39797A2EB562 /* WXShootingVContro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXShootingVContro.h; sourceTree = "<group>"; };
+		DA41D3E666230B8540572A7B6140402B /* XVIEWVideoManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XVIEWVideoManager-dummy.m"; sourceTree = "<group>"; };
+		DAE76D9D2E5E9DFC5B0A5BDB87A16139 /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close@2x.png"; path = "XVIEWVideoManager/Assets/Resources/close@2x.png"; sourceTree = "<group>"; };
+		DB5FB7603EA95F4979C1B3AB14AD1B2B /* Pods-XVIEWVideoManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XVIEWVideoManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E4B773B29A5CC0BDE8596CC5E191F7E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E603BB6B15FF1E6266390E2A7B947C89 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		E68F539CC712F99179B1284B7CBBBD30 /* Pods-XVIEWVideoManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWVideoManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E8711D511625F057687BE907FAD8C9FA /* XVIEWVideoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XVIEWVideoManager.h; sourceTree = "<group>"; };
+		EAA101DFE90FED042027D2076BD6623B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EE0299164DA4F496A2E60386FCEC6966 /* btn_return@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_return@3x.png"; path = "XVIEWVideoManager/Assets/Resources/btn_return@3x.png"; sourceTree = "<group>"; };
+		EE468B4911A04480726C363EB7DAC15A /* Pods-XVIEWVideoManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XVIEWVideoManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F39D47439805E83FC3E836DFC8DDE9CD /* XVIEWVideoManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XVIEWVideoManager.framework; path = XVIEWVideoManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A12065254ED232EAB9EA7CD48DE87E /* Pods-XVIEWVideoManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XVIEWVideoManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D99ADFD0CA228951749D6DCE481A580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D51E2DAD5E3E21279BC0A4E84C76A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E3685577280001161BEADF67C6EE05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959FBAF4959442D53A331C580E2A0156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8709EC0E58A796DC850EEEFF9B7BAF4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8ABFC028FED4DE27652F034EB65CE4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B445E7F950AED7526CC14D58DE603F4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09BB24F24E77E913CE516BD1B7191CB0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				88AA53D2617AEE5F4B7DB42479DF108A /* btn_return@2x.png */,
+				EE0299164DA4F496A2E60386FCEC6966 /* btn_return@3x.png */,
+				8EF2B8BF4C0D0179BC838F628EF880BA /* btn_sure@2x.png */,
+				BE53B513117AF340160D4129942559B5 /* btn_sure@3x.png */,
+				DAE76D9D2E5E9DFC5B0A5BDB87A16139 /* close@2x.png */,
+				85E28B0AB85EABBDC97DBB6CE4F99F62 /* switch@2x.png */,
+				4332330F8C86C4DE74509E2B4ABC543C /* switch@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0C0D36F920044FA88EC83A3B96F646B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE2F0B3BBB10788E3A92ED5A78A88F81 /* Info.plist */,
+				98EA55B4F76E75D758BE37FCD449F4ED /* ResourceBundle-XVIEWVideoManager-Info.plist */,
+				046E42C61238E80683CCCD081547520F /* XVIEWVideoManager.modulemap */,
+				24FD3FDCF161C174A92A1EFCE7C0EA25 /* XVIEWVideoManager.xcconfig */,
+				DA41D3E666230B8540572A7B6140402B /* XVIEWVideoManager-dummy.m */,
+				AAED39DB77914C82CAAB84DB2893A4BA /* XVIEWVideoManager-prefix.pch */,
+				1495EAB774D9A3BA13DBF7DA56345F35 /* XVIEWVideoManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XVIEWVideoManager";
+			sourceTree = "<group>";
+		};
+		2BC2D46C68648E9572B1F61136E5583D /* WXShooting */ = {
+			isa = PBXGroup;
+			children = (
+				6A9EFF2FEE5FD9F1A49546E6E6CA5729 /* Contro */,
+				8720AE9FC31994CD1FCA41A63B5F194D /* Other */,
+				76FC2A84C9E887458D33F07BCED7FE7C /* SDAutoLayout */,
+				B3410ED498D1BF995BC0DDEC832FE2CE /* View */,
+			);
+			name = WXShooting;
+			path = XVIEWVideoManager/Classes/WXShooting;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64B1F9613F61D4E0201FD17D0F40BE8D /* Pods-XVIEWVideoManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E4B773B29A5CC0BDE8596CC5E191F7E1 /* Info.plist */,
+				1D6098C5DCA6B89598AE2C63D38212DB /* Pods-XVIEWVideoManager_Example.modulemap */,
+				EE468B4911A04480726C363EB7DAC15A /* Pods-XVIEWVideoManager_Example-acknowledgements.markdown */,
+				DB5FB7603EA95F4979C1B3AB14AD1B2B /* Pods-XVIEWVideoManager_Example-acknowledgements.plist */,
+				3599FA7299852FE4D3CA6A48ACEFAA62 /* Pods-XVIEWVideoManager_Example-dummy.m */,
+				A3ED6F0F906FE50255F78B6615D77CF3 /* Pods-XVIEWVideoManager_Example-frameworks.sh */,
+				664E01237C7EF6D0AF6AD4F2AEA7A68D /* Pods-XVIEWVideoManager_Example-resources.sh */,
+				466E1D60B5BEAF23D959C34CDAC9E6C4 /* Pods-XVIEWVideoManager_Example-umbrella.h */,
+				E68F539CC712F99179B1284B7CBBBD30 /* Pods-XVIEWVideoManager_Example.debug.xcconfig */,
+				507565716C44F22E35228E61C97973BB /* Pods-XVIEWVideoManager_Example.release.xcconfig */,
+			);
+			name = "Pods-XVIEWVideoManager_Example";
+			path = "Target Support Files/Pods-XVIEWVideoManager_Example";
+			sourceTree = "<group>";
+		};
+		6A9EFF2FEE5FD9F1A49546E6E6CA5729 /* Contro */ = {
+			isa = PBXGroup;
+			children = (
+				36AA772CC92CDA86C3ECE384D933FC61 /* WXPlayerContro.h */,
+				1B70D4E0B10069DC0D0786FC441FCA65 /* WXPlayerContro.m */,
+				D57B84C06B21BB4FEB5D39797A2EB562 /* WXShootingVContro.h */,
+				CBA4D0EDFF8DD69FF5F59AD9A9E9643A /* WXShootingVContro.m */,
+			);
+			name = Contro;
+			path = Contro;
+			sourceTree = "<group>";
+		};
+		71EDF062E480ED4F3669357A620B0797 /* Pods-XVIEWVideoManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9D57A607120A5460D6E982E0F6A28402 /* Info.plist */,
+				35D015111CD768F0459175974B2D2E86 /* Pods-XVIEWVideoManager_Tests.modulemap */,
+				700C07F19F1273C097C42A386CCF65DA /* Pods-XVIEWVideoManager_Tests-acknowledgements.markdown */,
+				7E86DE50CDEDD21414C32EFA522FDC99 /* Pods-XVIEWVideoManager_Tests-acknowledgements.plist */,
+				13C892DFC5A0DA16580D992C46317793 /* Pods-XVIEWVideoManager_Tests-dummy.m */,
+				9CAA9144D8248759637665CE6754D409 /* Pods-XVIEWVideoManager_Tests-frameworks.sh */,
+				69615AE24AE9B95E59EBC517F1244B0B /* Pods-XVIEWVideoManager_Tests-resources.sh */,
+				F9A12065254ED232EAB9EA7CD48DE87E /* Pods-XVIEWVideoManager_Tests-umbrella.h */,
+				33B800C9CBF79E4A4DFE8530C06720EE /* Pods-XVIEWVideoManager_Tests.debug.xcconfig */,
+				7D94C57536C4E0868BBE99EE3DF60B61 /* Pods-XVIEWVideoManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-XVIEWVideoManager_Tests";
+			path = "Target Support Files/Pods-XVIEWVideoManager_Tests";
+			sourceTree = "<group>";
+		};
+		76FC2A84C9E887458D33F07BCED7FE7C /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				AADB6B30864335715E75295BF776342F /* SDAutoLayout.h */,
+				E603BB6B15FF1E6266390E2A7B947C89 /* UITableView+SDAutoTableViewCellHeight.h */,
+				01885D66326849F1B515E611B0FC2616 /* UITableView+SDAutoTableViewCellHeight.m */,
+				AD77B7C04F4592D5898C37C8D0775B17 /* UIView+SDAutoLayout.h */,
+				4AE41CD6C22C8E37FE42CF6EAD53C30D /* UIView+SDAutoLayout.m */,
+			);
+			name = SDAutoLayout;
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C5CFB192914B30DA09FB6CFE94744FAB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EA95E06A22C907A15A52754514BBA4DE /* Products */,
+				CDE0993200843103FC558AF3380DEA8A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8720AE9FC31994CD1FCA41A63B5F194D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2D523EC3418F98910F342BA1591CD997 /* UIColor+CZAddition.h */,
+				D36526B74F093333217EE5AD70D10248 /* UIColor+CZAddition.m */,
+			);
+			name = Other;
+			path = Other;
+			sourceTree = "<group>";
+		};
+		AA8A7B2F375F93178857ECAD0A283BD3 /* XVIEWVideoManager */ = {
+			isa = PBXGroup;
+			children = (
+				B029572BEF6EAD0488CD2440AD6B52BD /* Frameworks */,
+				BA484269F410FDF68D139094D1477721 /* Pod */,
+				09BB24F24E77E913CE516BD1B7191CB0 /* Resources */,
+				0C0D36F920044FA88EC83A3B96F646B8 /* Support Files */,
+				2BC2D46C68648E9572B1F61136E5583D /* WXShooting */,
+				E8E3FC9C85A25C7D57F2603ECB7A50BB /* XVIEWVideoManager */,
+			);
+			name = XVIEWVideoManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B029572BEF6EAD0488CD2440AD6B52BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA3D3478CA21DB6EF4F9F89627B97E42 /* libVideoManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3410ED498D1BF995BC0DDEC832FE2CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BB4D6E6E9244EF320585ACFFE617CC4 /* ShootingButton.h */,
+				758B7B6A3DA3B9324DA334DE7B8C11DB /* ShootingButton.m */,
+				C1E3A7DC1682A0870EDDCA5B767C1BF6 /* ShootingCenterButton.h */,
+				5CA4A1A4FEA8569EA64BADEDFBC0FB6C /* ShootingCenterButton.m */,
+				A97216E106B5C48B8A08ACCBCE2C6174 /* ShootingToolBar.h */,
+				90C0412CB6D649AC0FCEF3C95D13204B /* ShootingToolBar.m */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA484269F410FDF68D139094D1477721 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EAA101DFE90FED042027D2076BD6623B /* LICENSE */,
+				9CAC5D80BF7840B345987EC4A54E99CF /* README.md */,
+				84DF4E2E1A2A2EC310E56D16BB847F52 /* XVIEWVideoManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5CFB192914B30DA09FB6CFE94744FAB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A7B2F375F93178857ECAD0A283BD3 /* XVIEWVideoManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CDE0993200843103FC558AF3380DEA8A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64B1F9613F61D4E0201FD17D0F40BE8D /* Pods-XVIEWVideoManager_Example */,
+				71EDF062E480ED4F3669357A620B0797 /* Pods-XVIEWVideoManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E8E3FC9C85A25C7D57F2603ECB7A50BB /* XVIEWVideoManager */ = {
+			isa = PBXGroup;
+			children = (
+				E8711D511625F057687BE907FAD8C9FA /* XVIEWVideoManager.h */,
+			);
+			name = XVIEWVideoManager;
+			path = XVIEWVideoManager/Classes/XVIEWVideoManager;
+			sourceTree = "<group>";
+		};
+		EA95E06A22C907A15A52754514BBA4DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				910AC9C7EE2C2C4687A3F1E0D839CBAB /* Pods_XVIEWVideoManager_Example.framework */,
+				CE3E7FA2FFBCFA9DEED1681B78A476B9 /* Pods_XVIEWVideoManager_Tests.framework */,
+				D2EE631111D6D66E6A4750F4C32D1969 /* XVIEWVideoManager.bundle */,
+				F39D47439805E83FC3E836DFC8DDE9CD /* XVIEWVideoManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D73B70C0EEE954A9DC4D3F0F2687778 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31FB83C52D1B71C852D47CB2B51FB9A /* Pods-XVIEWVideoManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5470A53ECBD4CE20D04C2D6FBD2868 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F81992F17FCDB317A2CEBC1F60322C /* Pods-XVIEWVideoManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF22F37A26B5DCD73E3B645301FCEB47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE043E3D0671E95D15FD0796F5CF4AB /* SDAutoLayout.h in Headers */,
+				F5AA010A53586B998CD447826C16AE74 /* ShootingButton.h in Headers */,
+				97073C52596A21708B1D2400D74834F1 /* ShootingCenterButton.h in Headers */,
+				01EDADEDE10778C1F4E86E26A8F6A94B /* ShootingToolBar.h in Headers */,
+				14C296D8FEDD32162182DC5B578D0F4D /* UIColor+CZAddition.h in Headers */,
+				95EAFD90D932ABF59BAEA6EE1CD74ABB /* UITableView+SDAutoTableViewCellHeight.h in Headers */,
+				1CF074614A4D6085A28226F902C7118B /* UIView+SDAutoLayout.h in Headers */,
+				0D85846BA3AE6B88E08EC2AA16B01690 /* WXPlayerContro.h in Headers */,
+				3DF71BEA829633E693F3DA74A5E8A11D /* WXShootingVContro.h in Headers */,
+				38291784A23EA201734601F0635A974F /* XVIEWVideoManager-umbrella.h in Headers */,
+				2F1B170C15C1434832C07468EFB9BA21 /* XVIEWVideoManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		83A8BC65EC8D8C5FC5DB5918C9533C41 /* XVIEWVideoManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 061DA58E44D498A4B3CD8EA94D6F1D78 /* Build configuration list for PBXNativeTarget "XVIEWVideoManager" */;
+			buildPhases = (
+				5527AE207A6A683849B3792EC26E9501 /* Sources */,
+				3D51E2DAD5E3E21279BC0A4E84C76A02 /* Frameworks */,
+				8626F22DE609AEE7CDF7B27D68EED4E4 /* Resources */,
+				EF22F37A26B5DCD73E3B645301FCEB47 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBA446F83C393F3FF65E484E86719897 /* PBXTargetDependency */,
+			);
+			name = XVIEWVideoManager;
+			productName = XVIEWVideoManager;
+			productReference = F39D47439805E83FC3E836DFC8DDE9CD /* XVIEWVideoManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C389A5F55F05397DE158F8364D29EECB /* Pods-XVIEWVideoManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B581119DBCA63359B0BA499668ECBDA /* Build configuration list for PBXNativeTarget "Pods-XVIEWVideoManager_Example" */;
+			buildPhases = (
+				43F93FD2D3C961B81DC6CD7FD8F89E60 /* Sources */,
+				959FBAF4959442D53A331C580E2A0156 /* Frameworks */,
+				AC5470A53ECBD4CE20D04C2D6FBD2868 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B75CBB0AF52D2625544FCF184C62C41A /* PBXTargetDependency */,
+			);
+			name = "Pods-XVIEWVideoManager_Example";
+			productName = "Pods-XVIEWVideoManager_Example";
+			productReference = 910AC9C7EE2C2C4687A3F1E0D839CBAB /* Pods_XVIEWVideoManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC78D606486D328857442D9DDC3ED372 /* XVIEWVideoManager-XVIEWVideoManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73B72984D80497728CAECE9BE3C8B1AF /* Build configuration list for PBXNativeTarget "XVIEWVideoManager-XVIEWVideoManager" */;
+			buildPhases = (
+				8A0F1BE8E4FC8D689606A40229159E0A /* Sources */,
+				0D99ADFD0CA228951749D6DCE481A580 /* Frameworks */,
+				AD99470541998FD691784007945E318A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XVIEWVideoManager-XVIEWVideoManager";
+			productName = "XVIEWVideoManager-XVIEWVideoManager";
+			productReference = D2EE631111D6D66E6A4750F4C32D1969 /* XVIEWVideoManager.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D82FD8123A0BE6A08D5472478555F896 /* Pods-XVIEWVideoManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D14622E13FF7B2C5690A213798AFCA /* Build configuration list for PBXNativeTarget "Pods-XVIEWVideoManager_Tests" */;
+			buildPhases = (
+				587A78EB6A2DBF79E79C7F7E90DB8BC9 /* Sources */,
+				A8ABFC028FED4DE27652F034EB65CE4F /* Frameworks */,
+				3D73B70C0EEE954A9DC4D3F0F2687778 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A69825F4C3E59114EE4D5882CB6BB2B3 /* PBXTargetDependency */,
+			);
+			name = "Pods-XVIEWVideoManager_Tests";
+			productName = "Pods-XVIEWVideoManager_Tests";
+			productReference = CE3E7FA2FFBCFA9DEED1681B78A476B9 /* Pods_XVIEWVideoManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EA95E06A22C907A15A52754514BBA4DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C389A5F55F05397DE158F8364D29EECB /* Pods-XVIEWVideoManager_Example */,
+				D82FD8123A0BE6A08D5472478555F896 /* Pods-XVIEWVideoManager_Tests */,
+				83A8BC65EC8D8C5FC5DB5918C9533C41 /* XVIEWVideoManager */,
+				CC78D606486D328857442D9DDC3ED372 /* XVIEWVideoManager-XVIEWVideoManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8626F22DE609AEE7CDF7B27D68EED4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851E22336A6720DE273127703C9EBF25 /* XVIEWVideoManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD99470541998FD691784007945E318A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86C1C16A9BC011424DD38EBC2C26AD9 /* btn_return@2x.png in Resources */,
+				AA781E8290E0977C686D90C0839F9913 /* btn_return@3x.png in Resources */,
+				B6BE1FD0292DCF0BA647004A0C0F294E /* btn_sure@2x.png in Resources */,
+				D3E35AAC5EC8912896D198D82F610FEC /* btn_sure@3x.png in Resources */,
+				9B6629400CE12FB1C613E1273371BF87 /* close@2x.png in Resources */,
+				75D38062B4CF55491A1E49CCAA9E9E3C /* switch@2x.png in Resources */,
+				4B9C9B1C73931087C877DB9B82CEED0C /* switch@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43F93FD2D3C961B81DC6CD7FD8F89E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10084D6418D0043B69B2A5B6BED95D4 /* Pods-XVIEWVideoManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5527AE207A6A683849B3792EC26E9501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2338CE8AB8C1E866ACBFD2264B966E /* ShootingButton.m in Sources */,
+				5A64C4759298D1555C8B83AA5BBA2549 /* ShootingCenterButton.m in Sources */,
+				A9FA382BEAA9DF07F9C313968DB5BF0C /* ShootingToolBar.m in Sources */,
+				59010C56814189C878CACA6DB08EC7B1 /* UIColor+CZAddition.m in Sources */,
+				2E4503DA14B6614E11140E454CF1CB80 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				1578CCC0430ED7A76536E379FA590528 /* UIView+SDAutoLayout.m in Sources */,
+				F1D18ECD49DF33F2651A9FAD35808378 /* WXPlayerContro.m in Sources */,
+				A0DC28DB4CF05BB6AE358AEE34811926 /* WXShootingVContro.m in Sources */,
+				A26F26B460D2D1A3AE47B91AFB68876E /* XVIEWVideoManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587A78EB6A2DBF79E79C7F7E90DB8BC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7982070FA1FC044D1EE02E77634A2738 /* Pods-XVIEWVideoManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0F1BE8E4FC8D689606A40229159E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A69825F4C3E59114EE4D5882CB6BB2B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XVIEWVideoManager_Example";
+			target = C389A5F55F05397DE158F8364D29EECB /* Pods-XVIEWVideoManager_Example */;
+			targetProxy = F28E90FCB07A7AB5110E20E75226FA72 /* PBXContainerItemProxy */;
+		};
+		B75CBB0AF52D2625544FCF184C62C41A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XVIEWVideoManager;
+			target = 83A8BC65EC8D8C5FC5DB5918C9533C41 /* XVIEWVideoManager */;
+			targetProxy = 007614C0C0426A4294C169A3792B486A /* PBXContainerItemProxy */;
+		};
+		FBA446F83C393F3FF65E484E86719897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XVIEWVideoManager-XVIEWVideoManager";
+			target = CC78D606486D328857442D9DDC3ED372 /* XVIEWVideoManager-XVIEWVideoManager */;
+			targetProxy = 7CAD52CCBDDB433FCA45CB1E383E387E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B6CA5D3ABEE66727480DCB1A462F0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24FD3FDCF161C174A92A1EFCE7C0EA25 /* XVIEWVideoManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XVIEWVideoManager";
+				INFOPLIST_FILE = "Target Support Files/XVIEWVideoManager/ResourceBundle-XVIEWVideoManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XVIEWVideoManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1D154CC388AF6833C79A5C0D432F8C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24FD3FDCF161C174A92A1EFCE7C0EA25 /* XVIEWVideoManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XVIEWVideoManager/XVIEWVideoManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XVIEWVideoManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XVIEWVideoManager/XVIEWVideoManager.modulemap";
+				PRODUCT_MODULE_NAME = XVIEWVideoManager;
+				PRODUCT_NAME = XVIEWVideoManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3380C0B06EA7639062C17A1CE0E3042B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68F539CC712F99179B1284B7CBBBD30 /* Pods-XVIEWVideoManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XVIEWVideoManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XVIEWVideoManager_Example/Pods-XVIEWVideoManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B4D64B7F7D8D4B64A8FD42ECF46E480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 507565716C44F22E35228E61C97973BB /* Pods-XVIEWVideoManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XVIEWVideoManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XVIEWVideoManager_Example/Pods-XVIEWVideoManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FB573BB943CFF276FD0B02FCD78D609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24FD3FDCF161C174A92A1EFCE7C0EA25 /* XVIEWVideoManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XVIEWVideoManager";
+				INFOPLIST_FILE = "Target Support Files/XVIEWVideoManager/ResourceBundle-XVIEWVideoManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XVIEWVideoManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8A3EFB831C715B08DCC600DD70542FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33B800C9CBF79E4A4DFE8530C06720EE /* Pods-XVIEWVideoManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XVIEWVideoManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XVIEWVideoManager_Tests/Pods-XVIEWVideoManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B05A05864C42F87EC03B39FBF17DB232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D94C57536C4E0868BBE99EE3DF60B61 /* Pods-XVIEWVideoManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XVIEWVideoManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XVIEWVideoManager_Tests/Pods-XVIEWVideoManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E44DD6BC7C6979570A604D5D77A8AFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24FD3FDCF161C174A92A1EFCE7C0EA25 /* XVIEWVideoManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XVIEWVideoManager/XVIEWVideoManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XVIEWVideoManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XVIEWVideoManager/XVIEWVideoManager.modulemap";
+				PRODUCT_MODULE_NAME = XVIEWVideoManager;
+				PRODUCT_NAME = XVIEWVideoManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		061DA58E44D498A4B3CD8EA94D6F1D78 /* Build configuration list for PBXNativeTarget "XVIEWVideoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44DD6BC7C6979570A604D5D77A8AFDE /* Debug */,
+				1D154CC388AF6833C79A5C0D432F8C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D14622E13FF7B2C5690A213798AFCA /* Build configuration list for PBXNativeTarget "Pods-XVIEWVideoManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3EFB831C715B08DCC600DD70542FF4 /* Debug */,
+				B05A05864C42F87EC03B39FBF17DB232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B581119DBCA63359B0BA499668ECBDA /* Build configuration list for PBXNativeTarget "Pods-XVIEWVideoManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3380C0B06EA7639062C17A1CE0E3042B /* Debug */,
+				4B4D64B7F7D8D4B64A8FD42ECF46E480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73B72984D80497728CAECE9BE3C8B1AF /* Build configuration list for PBXNativeTarget "XVIEWVideoManager-XVIEWVideoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FB573BB943CFF276FD0B02FCD78D609 /* Debug */,
+				0B6CA5D3ABEE66727480DCB1A462F0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

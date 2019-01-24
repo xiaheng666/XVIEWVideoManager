@@ -1,0 +1,33 @@
+{
+  "name": "XVIEWVideoManager",
+  "version": "0.1.0",
+  "summary": "拍摄小视屏",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiaheng666/XVIEWVideoManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaheng666": "key@xiaheng.net"
+  },
+  "source": {
+    "git": "git@github.com:xiaheng666/XVIEWVideoManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": [
+    "XVIEWVideoManager/Classes/XVIEWVideoManager/*.h",
+    "XVIEWVideoManager/Classes/WXShooting/**/*.{h,m}"
+  ],
+  "ios": {
+    "vendored_libraries": "XVIEWVideoManager/Classes/XVIEWVideoManager/*.a"
+  },
+  "resource_bundles": {
+    "XVIEWVideoManager": [
+      "XVIEWVideoManager/Assets/Resources/*.png"
+    ]
+  }
+}
