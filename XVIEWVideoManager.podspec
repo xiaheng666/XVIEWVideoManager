@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWVideoManager'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '拍摄小视屏'
 
 # This description is used to generate tags and improve search results.
@@ -35,8 +35,9 @@ TODO: Add long description of the pod here.
    s.resource_bundles = {
      'XVIEWVideoManager' => ['XVIEWVideoManager/Assets/Resources/*.png']
    }
-
+   
+   
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'AVKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

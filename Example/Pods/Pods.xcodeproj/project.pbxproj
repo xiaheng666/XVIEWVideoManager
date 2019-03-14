@@ -22,9 +22,11 @@
 		5A64C4759298D1555C8B83AA5BBA2549 /* ShootingCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4A1A4FEA8569EA64BADEDFBC0FB6C /* ShootingCenterButton.m */; };
 		5D2338CE8AB8C1E866ACBFD2264B966E /* ShootingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 758B7B6A3DA3B9324DA334DE7B8C11DB /* ShootingButton.m */; };
 		75D38062B4CF55491A1E49CCAA9E9E3C /* switch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E28B0AB85EABBDC97DBB6CE4F99F62 /* switch@2x.png */; };
+		78CC5BF33DAE95B5658C9083342D9FC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CDBBF0A81252208E9E640014F7D294 /* Foundation.framework */; };
 		7982070FA1FC044D1EE02E77634A2738 /* Pods-XVIEWVideoManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C892DFC5A0DA16580D992C46317793 /* Pods-XVIEWVideoManager_Tests-dummy.m */; };
 		851E22336A6720DE273127703C9EBF25 /* XVIEWVideoManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D2EE631111D6D66E6A4750F4C32D1969 /* XVIEWVideoManager.bundle */; };
-		8709EC0E58A796DC850EEEFF9B7BAF4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8709EC0E58A796DC850EEEFF9B7BAF4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CDBBF0A81252208E9E640014F7D294 /* Foundation.framework */; };
+		8809BDFF7B09BDB7A929B148C7820904 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0C94A074E344197E8CD229F6AD089C /* AVKit.framework */; };
 		95EAFD90D932ABF59BAEA6EE1CD74ABB /* UITableView+SDAutoTableViewCellHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = E603BB6B15FF1E6266390E2A7B947C89 /* UITableView+SDAutoTableViewCellHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97073C52596A21708B1D2400D74834F1 /* ShootingCenterButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E3A7DC1682A0870EDDCA5B767C1BF6 /* ShootingCenterButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B6629400CE12FB1C613E1273371BF87 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAE76D9D2E5E9DFC5B0A5BDB87A16139 /* close@2x.png */; };
@@ -32,9 +34,8 @@
 		A26F26B460D2D1A3AE47B91AFB68876E /* XVIEWVideoManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA41D3E666230B8540572A7B6140402B /* XVIEWVideoManager-dummy.m */; };
 		A9FA382BEAA9DF07F9C313968DB5BF0C /* ShootingToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C0412CB6D649AC0FCEF3C95D13204B /* ShootingToolBar.m */; };
 		AA781E8290E0977C686D90C0839F9913 /* btn_return@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0299164DA4F496A2E60386FCEC6966 /* btn_return@3x.png */; };
-		B445E7F950AED7526CC14D58DE603F4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B445E7F950AED7526CC14D58DE603F4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CDBBF0A81252208E9E640014F7D294 /* Foundation.framework */; };
 		B6BE1FD0292DCF0BA647004A0C0F294E /* btn_sure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF2B8BF4C0D0179BC838F628EF880BA /* btn_sure@2x.png */; };
-		B7E3685577280001161BEADF67C6EE05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		C86C1C16A9BC011424DD38EBC2C26AD9 /* btn_return@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88AA53D2617AEE5F4B7DB42479DF108A /* btn_return@2x.png */; };
 		D10084D6418D0043B69B2A5B6BED95D4 /* Pods-XVIEWVideoManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3599FA7299852FE4D3CA6A48ACEFAA62 /* Pods-XVIEWVideoManager_Example-dummy.m */; };
 		D31FB83C52D1B71C852D47CB2B51FB9A /* Pods-XVIEWVideoManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A12065254ED232EAB9EA7CD48DE87E /* Pods-XVIEWVideoManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -85,8 +86,8 @@
 		466E1D60B5BEAF23D959C34CDAC9E6C4 /* Pods-XVIEWVideoManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XVIEWVideoManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		4AE41CD6C22C8E37FE42CF6EAD53C30D /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
 		507565716C44F22E35228E61C97973BB /* Pods-XVIEWVideoManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWVideoManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5CA4A1A4FEA8569EA64BADEDFBC0FB6C /* ShootingCenterButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShootingCenterButton.m; sourceTree = "<group>"; };
+		61CDBBF0A81252208E9E640014F7D294 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		664E01237C7EF6D0AF6AD4F2AEA7A68D /* Pods-XVIEWVideoManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWVideoManager_Example-resources.sh"; sourceTree = "<group>"; };
 		69615AE24AE9B95E59EBC517F1244B0B /* Pods-XVIEWVideoManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWVideoManager_Tests-resources.sh"; sourceTree = "<group>"; };
 		6BB4D6E6E9244EF320585ACFFE617CC4 /* ShootingButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShootingButton.h; sourceTree = "<group>"; };
@@ -131,6 +132,7 @@
 		EE468B4911A04480726C363EB7DAC15A /* Pods-XVIEWVideoManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XVIEWVideoManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F39D47439805E83FC3E836DFC8DDE9CD /* XVIEWVideoManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XVIEWVideoManager.framework; path = XVIEWVideoManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A12065254ED232EAB9EA7CD48DE87E /* Pods-XVIEWVideoManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XVIEWVideoManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FC0C94A074E344197E8CD229F6AD089C /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,19 +143,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D51E2DAD5E3E21279BC0A4E84C76A02 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B7E3685577280001161BEADF67C6EE05 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		959FBAF4959442D53A331C580E2A0156 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8709EC0E58A796DC850EEEFF9B7BAF4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5A521BEC3835556B20B2E65E9FE8D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8809BDFF7B09BDB7A929B148C7820904 /* AVKit.framework in Frameworks */,
+				78CC5BF33DAE95B5658C9083342D9FC5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +200,15 @@
 			path = "Example/Pods/Target Support Files/XVIEWVideoManager";
 			sourceTree = "<group>";
 		};
+		214E2F5CC7BDF7DDF48BD7401D604500 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FC0C94A074E344197E8CD229F6AD089C /* AVKit.framework */,
+				61CDBBF0A81252208E9E640014F7D294 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		2BC2D46C68648E9572B1F61136E5583D /* WXShooting */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,12 +221,12 @@
 			path = XVIEWVideoManager/Classes/WXShooting;
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				214E2F5CC7BDF7DDF48BD7401D604500 /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		64B1F9613F61D4E0201FD17D0F40BE8D /* Pods-XVIEWVideoManager_Example */ = {
@@ -283,7 +295,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				C5CFB192914B30DA09FB6CFE94744FAB /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				EA95E06A22C907A15A52754514BBA4DE /* Products */,
 				CDE0993200843103FC558AF3380DEA8A /* Targets Support Files */,
 			);
@@ -343,14 +355,6 @@
 				84DF4E2E1A2A2EC310E56D16BB847F52 /* XVIEWVideoManager.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C5CFB192914B30DA09FB6CFE94744FAB /* Development Pods */ = {
@@ -435,7 +439,7 @@
 			buildConfigurationList = 061DA58E44D498A4B3CD8EA94D6F1D78 /* Build configuration list for PBXNativeTarget "XVIEWVideoManager" */;
 			buildPhases = (
 				5527AE207A6A683849B3792EC26E9501 /* Sources */,
-				3D51E2DAD5E3E21279BC0A4E84C76A02 /* Frameworks */,
+				9C5A521BEC3835556B20B2E65E9FE8D7 /* Frameworks */,
 				8626F22DE609AEE7CDF7B27D68EED4E4 /* Resources */,
 				EF22F37A26B5DCD73E3B645301FCEB47 /* Headers */,
 			);

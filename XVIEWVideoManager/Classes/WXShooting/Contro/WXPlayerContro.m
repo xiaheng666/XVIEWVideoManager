@@ -7,7 +7,7 @@
 //
 
 #import "WXPlayerContro.h"
-//#import <AVFoundation/AVFoundation.h>
+#import <AVFoundation/AVFoundation.h>
 @interface WXPlayerContro ()
 
 @end

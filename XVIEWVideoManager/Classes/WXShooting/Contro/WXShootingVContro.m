@@ -61,7 +61,7 @@ typedef NS_ENUM(NSUInteger, CaptureSessionPreset) {
 
 /**
  关闭按钮
-
+ 
  @return UIButton
  */
 -(UIButton*)colseButton
@@ -137,7 +137,7 @@ typedef NS_ENUM(NSUInteger, CaptureSessionPreset) {
     [self addChildViewController:self.palyerVc];
     
     [self seingUserCamera];
- 
+    
 }
 /**
  *  捕获区域改变
@@ -175,18 +175,18 @@ typedef NS_ENUM(NSUInteger, CaptureSessionPreset) {
 {
     //取出播放视图
     WXPlayerContro * vc = self.childViewControllers[0];
-   [self.view insertSubview:vc.view aboveSubview:self.userCamera];
+    [self.view insertSubview:vc.view aboveSubview:self.userCamera];
     if (type == Photo) {
         NSLog(@"拍照结束");
-//        [self takePhoto:vc];
+        //        [self takePhoto:vc];
     }else{
-//        NSLog(@"视频结束");
+        //        NSLog(@"视频结束");
         [self stopRecordVideo];
         vc.url = self.localMovieUrl;
     }
 }
 
-- (void)shootingToolBarAction:(ShootingToolBar *)toolBar buttonIndex:(NSInteger)index { 
+- (void)shootingToolBarAction:(ShootingToolBar *)toolBar buttonIndex:(NSInteger)index {
     if (index==1) {//重新拍摄
         [self.captureSession startRunning];
         [self.palyerVc removeSubViews];
@@ -196,9 +196,9 @@ typedef NS_ENUM(NSUInteger, CaptureSessionPreset) {
         if (self.recordBlock) {
             self.recordBlock(@{
                                @"videoPath":self.localMovieUrl.absoluteString,
-//                               @"imagePrefix":@"data:image/png;base64,",
-//                               @"imageBase64":
-//                                   [self image2DataURL:[self videoHandlePhoto:self.localMovieUrl]]
+                               //                               @"imagePrefix":@"data:image/png;base64,",
+                               //                               @"imageBase64":
+                               //                                   [self image2DataURL:[self videoHandlePhoto:self.localMovieUrl]]
                                });
         }
         [self dismissViewControllerAnimated:YES completion:nil];
@@ -212,7 +212,7 @@ typedef NS_ENUM(NSUInteger, CaptureSessionPreset) {
 
 - (void)captureOutput:(AVCaptureFileOutput *)captureOutput didStartRecordingToOutputFileAtURL:(NSURL *)fileURL fromConnections:(NSArray *)connections
 {
-//    NSLog(@"开始录制");
+    //    NSLog(@"开始录制");
     self.colseButton.hidden  = YES;
     self.switchButton.hidden = YES;
 }
@@ -220,7 +220,7 @@ typedef NS_ENUM(NSUInteger, CaptureSessionPreset) {
 -(void)captureOutput:(AVCaptureFileOutput *)captureOutput didFinishRecordingToOutputFileAtURL:(NSURL *)outputFileURL fromConnections:(NSArray *)connections error:(NSError *)error
 {
     
-//    NSLog(@"完成录制");
+    //    NSLog(@"完成录制");
     self.colseButton.hidden  = NO;
     self.switchButton.hidden = NO;
     
@@ -247,14 +247,14 @@ typedef NS_ENUM(NSUInteger, CaptureSessionPreset) {
 {
     //初始化会话
     _captureSession=[[AVCaptureSession alloc]init];
-
+    
     self.captureDeviceInput = [AVCaptureDeviceInput deviceInputWithDevice:[self backCamera] error:nil];
     //获得输入设备
-//    AVCaptureDevice *captureDevice=[self getCameraDeviceWithPosition:AVCaptureDevicePositionBack];//取得后置摄像头
-//    if (!captureDevice) {
-//        NSLog(@"取得后置摄像头时出现问题.");
-//        return;
-//    }
+    //    AVCaptureDevice *captureDevice=[self getCameraDeviceWithPosition:AVCaptureDevicePositionBack];//取得后置摄像头
+    //    if (!captureDevice) {
+    //        NSLog(@"取得后置摄像头时出现问题.");
+    //        return;
+    //    }
     //根据输入设备初始化设备输入对象，用于获得输入数据
     //    _captureDeviceInput=[[AVCaptureDeviceInput alloc]initWithDevice:captureDevice error:&error];
     //    if (error) {
@@ -283,7 +283,7 @@ typedef NS_ENUM(NSUInteger, CaptureSessionPreset) {
     } else {
         self.captureSession.sessionPreset = AVCaptureSessionPreset1280x720;
     }
-
+    
     //初始化设备输出对象，用于获得输出数据
     _captureMovieFileOutput=[[AVCaptureMovieFileOutput alloc]init];
     
@@ -301,9 +301,9 @@ typedef NS_ENUM(NSUInteger, CaptureSessionPreset) {
     if ([_captureSession canAddOutput:_captureMovieFileOutput]) {
         [_captureSession addOutput:_captureMovieFileOutput];
     }
-   /*-----------*/
+    /*-----------*/
     //照片输出
-     _captureStillImageOutput=[[AVCaptureStillImageOutput alloc]init];
+    _captureStillImageOutput=[[AVCaptureStillImageOutput alloc]init];
     NSDictionary *outputSettings = [[NSDictionary alloc] initWithObjectsAndKeys: AVVideoCodecJPEG, AVVideoCodecKey, nil];
     [_captureStillImageOutput setOutputSettings:outputSettings];//输出设置
     //将设备输出添加到会话中
@@ -420,15 +420,15 @@ typedef NS_ENUM(NSUInteger, CaptureSessionPreset) {
             vc.image = image;
             NSLog(@"===========%@",image);
             
-//            //是否是自拍的情况下，如果是话镜像进行调换。
-//            if (_isFront)
-//            {
-//                resultImage = [UIImage imageWithCGImage:image.CGImage scale:1.0 orientation:UIImageOrientationLeftMirrored];
-//
-//            }else{
-//                resultImage=image;
-//            }
-//            [self presentImg:resultImage video:nil];
+            //            //是否是自拍的情况下，如果是话镜像进行调换。
+            //            if (_isFront)
+            //            {
+            //                resultImage = [UIImage imageWithCGImage:image.CGImage scale:1.0 orientation:UIImageOrientationLeftMirrored];
+            //
+            //            }else{
+            //                resultImage=image;
+            //            }
+            //            [self presentImg:resultImage video:nil];
             
         }
         

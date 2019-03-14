@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVKit/AVKit.h>
 
 @interface WXPlayerContro : UIViewController
 @property (nonatomic , strong)NSURL * url;
