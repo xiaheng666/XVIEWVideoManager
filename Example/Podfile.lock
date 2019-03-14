@@ -1,5 +1,5 @@
 PODS:
-  - XVIEWVideoManager (0.1.0)
+  - XVIEWVideoManager (0.1.1)
 
 DEPENDENCIES:
   - XVIEWVideoManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XVIEWVideoManager: 2795d4d486a11b25c8482074a82b12bf6c370489
+  XVIEWVideoManager: 25de86f8c7063f4b4dc5e617fe68a578c4aa51f7
 
 PODFILE CHECKSUM: 928adad529f3ba0b080a04ffef8a9f403f32b364
 

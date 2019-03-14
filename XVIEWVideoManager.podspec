@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWVideoManager'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '拍摄小视屏'
 
 # This description is used to generate tags and improve search results.

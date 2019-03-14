@@ -23,4 +23,12 @@
  */
 - (void)video:(NSDictionary *)param;
 
+/**
+ *  播放视频
+ @param param     data:{videoPath:视频路径}
+                 callback:回调方法
+                 currentVC:当前vc
+ */
+- (void)play:(NSDictionary *)param;
+
 @end

@@ -166,7 +166,6 @@ typedef NS_ENUM(NSUInteger, CaptureSessionPreset) {
         NSLog(@"拍照开始");
     }
     else{
-        NSLog(@"视频开始");
         [self startRecordVideo];
     }
     
@@ -195,7 +194,12 @@ typedef NS_ENUM(NSUInteger, CaptureSessionPreset) {
     }
     if (index==4) {
         if (self.recordBlock) {
-            self.recordBlock(@{@"url":self.localMovieUrl.absoluteString,@"image":[self image2DataURL:[self videoHandlePhoto:self.localMovieUrl]]});
+            self.recordBlock(@{
+                               @"videoPath":self.localMovieUrl.absoluteString,
+//                               @"imagePrefix":@"data:image/png;base64,",
+//                               @"imageBase64":
+//                                   [self image2DataURL:[self videoHandlePhoto:self.localMovieUrl]]
+                               });
         }
         [self dismissViewControllerAnimated:YES completion:nil];
     }
@@ -584,23 +588,10 @@ typedef NS_ENUM(NSUInteger, CaptureSessionPreset) {
 - (NSString *)image2DataURL:(UIImage *)image {
     NSData *imageData = nil;
     NSString *mimeType = nil;
-    if ([self imageHasAlpha: image]) {
-        imageData = UIImagePNGRepresentation(image);
-        mimeType = @"image/png";
-    } else {
-        imageData = UIImageJPEGRepresentation(image, 1.0f);
-        mimeType = @"image/jpeg";
-    }
+    imageData = UIImagePNGRepresentation(image);
+    mimeType = @"image/png";
     return [NSString stringWithFormat:@"data:%@;base64,%@", mimeType,
             [imageData base64EncodedStringWithOptions: 0]];
-}
-
-- (BOOL) imageHasAlpha: (UIImage *)image {
-    CGImageAlphaInfo alpha = CGImageGetAlphaInfo(image.CGImage);
-    return (alpha == kCGImageAlphaFirst ||
-            alpha == kCGImageAlphaLast ||
-            alpha == kCGImageAlphaPremultipliedFirst ||
-            alpha == kCGImageAlphaPremultipliedLast);
 }
 
 -(void)dealloc
